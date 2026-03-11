@@ -10,7 +10,7 @@ Policy_Term_Years = st.number_input("Enter Policy Term (Years)", min_value=1)
 Sum_Assured_Lakhs = st.number_input("Enter Sum Assured (Lakhs)", min_value=0.0)
 
 if st.button("Predict"):
-    model = Insurance_Prediction()
+    model = Insurance_prediction()
 
     result = model.prediction(
         Age,
