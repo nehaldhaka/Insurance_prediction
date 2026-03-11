@@ -3,4 +3,3 @@ pandas
 numpy
 scikit-learn
 altair<5
-pillow==10.3.0
