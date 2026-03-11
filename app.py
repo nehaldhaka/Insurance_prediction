@@ -13,4 +13,3 @@ if st.button("Predict"):
     model=Insurance_prediction()
     result=model.prediction(Age,Annual_Income_LPA,Policy_Term_Years,Sum_Assured_Lakhs)
     st.success(result)
-    
